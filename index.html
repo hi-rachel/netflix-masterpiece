@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Netflix</title>
+  </head>
+
+  <body>
+    <div class="dark-background" style="overflow: visible; position: static">
+      <header style="position: sticky; top: 0; height: auto; z-index: 10">
+        <div id="logo">
+          <a>
+            <img src="netflix-photo/Netflix_Logo.png" alt="Netflix Logo" />
+          </a>
+        </div>
+        <ul id="header-navigation">
+          <li class="navigation-menu"><a href="/">홈</a></li>
+          <li class="navigation-menu"><a href="/">시리즈</a></li>
+          <li class="navigation-menu"><a href="/">영화</a></li>
+          <li class="navigation-menu"><a href="/">NEW! 요즘 대세 콘텐츠</a></li>
+          <li class="navigation-menu"><a href="/">내가 찜한 콘텐츠</a></li>
+          <li class="navigation-menu"><a href="/">언어별로 찾아보기</a></li>
+        </ul>
+        <div class="secondary-navigation">
+          <div class="nav-element">
+            <div class="searchBox">
+              <button
+                class="searchTab"
+                tabindex="0"
+                aria-label="검색"
+                data-uia="search-box-launcher"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="white"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="search-icon ltr-0 e1mhci4z1"
+                  data-name="MagnifyingGlass"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10ZM15.6177 17.0319C14.078 18.2635 12.125 19 10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 12.125 18.2635 14.078 17.0319 15.6177L22.7071 21.2929L21.2929 22.7071L15.6177 17.0319Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="nav-element">
+            <span class="notifications">
+              <button
+                class="notifications-menu"
+                aria-haspopup="true"
+                aria-expanded="false"
+                aria-label="알림"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="white"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="ltr-0 e1mhci4z1"
+                  data-name="Bell"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M13.0002 4.07092C16.3924 4.55624 19 7.4736 19 11V15.2538C20.0489 15.3307 21.0851 15.4245 22.1072 15.5347L21.8928 17.5232C18.7222 17.1813 15.4092 17 12 17C8.59081 17 5.27788 17.1813 2.10723 17.5232L1.89282 15.5347C2.91498 15.4245 3.95119 15.3307 5.00003 15.2538V11C5.00003 7.47345 7.60784 4.55599 11.0002 4.07086V2H13.0002V4.07092ZM17 15.1287V11C17 8.23858 14.7614 6 12 6C9.2386 6 7.00003 8.23858 7.00003 11V15.1287C8.64066 15.0437 10.3091 15 12 15C13.691 15 15.3594 15.0437 17 15.1287ZM8.62593 19.3712C8.66235 20.5173 10.1512 22 11.9996 22C13.848 22 15.3368 20.5173 15.3732 19.3712C15.3803 19.1489 15.1758 19 14.9533 19H9.0458C8.82333 19 8.61886 19.1489 8.62593 19.3712Z"
+                    fill="white"
+                  ></path>
+                </svg>
+              </button>
+            </span>
+          </div>
+          <div class="nav-element">
+            <div class="account-menu-item">
+              <div class="account-dropdown-button">
+                <a href="/t" role="button" tabindex="0" aria-haspopup="true">
+                  <span class="profile-link" role="presentation">
+                    <img
+                      class="profile-icon"
+                      src="https://occ-0-3076-988.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABVsxa1VcfrB4-67Ky9iIT3FvkXil8aHqI146eD9KOCJMKJ_PrzeXE-42Sn4LzY0NoK8ruFwXapCxXjj-qc2Qdj0ZzrKNZpg.png?r=c3d"
+                      alt="" /></span
+                ></a>
+                <span class="caret" role="presentation"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="main-view" role="main">
+        <div class="lolomo is-fullbleed">
+          <div class="main-img-wrapper">
+            <img class="main-img-layer" src="netflix-photo/suits-main.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="fill-container">
+        <div class="main-info">
+          <div class="main-title">
+            <img
+              class="title-logo"
+              alt="슈츠"
+              title="슈츠"
+              src="netflix-photo/suits-title.webp"
+            />
+          </div>
+          <div class="main-txt">
+            명석한 두뇌로 능수능란한 변호사의 마음을 사로잡은 대학 중퇴 청년.
+            변호사 자격도 없이 거대 로펌의 보조 변호사로 일하게 된다.
+          </div>
+          <div class="main-btn">
+            <div class="main-btn-play">
+              <a
+                uiplaycontexttag="billboardPlayButton"
+                data-uia="play-button"
+                role="link"
+                aria-label="재생"
+                class="playLink isToolkit"
+                href="#"
+              >
+                <button
+                  class="color-primary hasLabel hasIcon ltr-podnco"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <div class="ltr-1st24vv">
+                    <div class="medium ltr-iyulz3" role="presentation">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="ltr-0 e1mhci4z1"
+                        data-name="Play"
+                        aria-hidden="true"
+                      >
+                        <path
+                          d="M5 2.69127C5 1.93067 5.81547 1.44851 6.48192 1.81506L23.4069 11.1238C24.0977 11.5037 24.0977 12.4963 23.4069 12.8762L6.48192 22.1849C5.81546 22.5515 5 22.0693 5 21.3087V2.69127Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="ltr-1npqywr" style="width: 1rem"></div>
+                  <span class="ltr-1vh9doa">재생</span>
+                </button>
+              </a>
+            </div>
+            <div class="main-btn-info">
+              <button
+                class="color-secondary hasLabel hasIcon ltr-18ezbm2"
+                data-uia="billboard-more-info"
+                type="button"
+                onclick="window.open('#')"
+              >
+                <div class="ltr-1st24vv" style="width: 1rem">
+                  <div class="medium ltr-iyulz3" role="presentation">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="ltr-0 e1mhci4z1"
+                      data-name="CircleI"
+                      aria-hidden="true"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12ZM13 10V18H11V10H13ZM12 8.5C12.8284 8.5 13.5 7.82843 13.5 7C13.5 6.17157 12.8284 5.5 12 5.5C11.1716 5.5 10.5 6.17157 10.5 7C10.5 7.82843 11.1716 8.5 12 8.5Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="ltr-1npqywr" style="width: 1rem"></div>
+                <span class="ltr-1vh9doa">상세 정보</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="secondary-main">
+      <div class="contents-title">
+        <h2>직접 보고 추천하는 작품</h2>
+      </div>
+      <div class="container">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="netflix-photo/forest-gump.webp" alt="포레스트 검프" />
+            </div>
+            <div class="swiper-slide">
+              <img src="netflix-photo/black-mirror.jpg" alt="블랙미러" />
+            </div>
+            <div class="swiper-slide">
+              <img src="netflix-photo/space-force.jpg" alt="스페이스 포스" />
+            </div>
+            <div class="swiper-slide">
+              <img src="netflix-photo/ozark.jpg" alt="오자크" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="netflix-photo/rick_and_morty_ko.webp"
+                alt="릭 앤 모티"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="netflix-photo/selling-sunset.jpg" alt="셀링 선셋" />
+            </div>
+            <div class="swiper-slide">
+              <img src="netflix-photo/black-mirror.jpg" alt="블랙미러" />
+            </div>
+            <div class="swiper-slide">
+              <img src="netflix-photo/the-good-place.jpg" alt="굿 플레이스" />
+            </div>
+            <div class="swiper-slide">
+              <img src="netflix-photo/queens.jpg" alt="퀸스 갬빗" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="netflix-photo/stranger-things.jpg"
+                alt="기묘한 이야기"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="netflix-photo/spy-family.webp" alt="스파이 패밀리" />
+            </div>
+            <div class="swiper-slide">
+              <img src="netflix-photo/angry-people.jpg" alt="성난 사람들" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="netflix-photo/brooklyn-nine-nine.webp"
+                alt="브루클린 나인 나인"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="netflix-photo/la-casa-de-papel.jpg" alt="종이의 집" />
+            </div>
+            <div class="swiper-slide">
+              <img src="netflix-photo/lalaland.webp" alt="라라랜드" />
+            </div>
+            <div class="swiper-slide">
+              <img src="netflix-photo/next-fashion.jpg" alt="넥스트 패션" />
+            </div>
+          </div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <div class="contents-title">
+        <h2>인생작</h2>
+      </div>
+      <div class="container">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="netflix-photo/better-call-saul-ranking-one.jpg"
+                alt="베터콜사울"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="netflix-photo/breaking-bad.webp" alt="브레이킹 배드" />
+            </div>
+            <div class="swiper-slide">
+              <img src="netflix-photo/friends-ranking.jpeg" alt="프렌즈" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="netflix-photo/the-bingbang-theory-ranking.jpeg"
+                alt="빅뱅이론"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="netflix-photo/gilmore-girls-ranking.webp"
+                alt="길모어걸스"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="netflix-photo/you-ranking.jpg" alt="너의 모든 것" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="netflix-photo/love-rosie-ranking.webp"
+                alt="러브, 로지"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="netflix-photo/terminal-ranking.webp" alt="터미널" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="netflix-photo/peaky-blinders-ranking.jpg"
+                alt="피키 블라인더스"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="netflix-photo/notebook-ranking.webp" alt="노트북" />
+            </div>
+          </div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <footer>
+        <p>@2023 hi-rachel</p>
+      </footer>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
