@@ -180,6 +180,11 @@ header {
   word-break: keep-all;
 }
 
+.navigation-menu a:hover {
+  opacity: 0.7;
+  transition: all 0.5s ease-out;
+}
+
 .header-black {
   background-color: var(--header-bg-color);
 }
@@ -189,6 +194,7 @@ header {
 }
 
 #logo img {
+  margin-top: 5px;
   width: 10em;
 }
 
@@ -342,6 +348,10 @@ header {
   max-height: 70px;
 }
 
+.main-btn-play:hover {
+  opacity: 0.7;
+}
+
 .main-btn-info {
   background-color: transparent;
   align-items: center;
@@ -354,6 +364,10 @@ header {
   border-radius: 4px;
   margin-bottom: 1rem;
   margin-right: 1rem;
+}
+
+.main-btn-info:hover {
+  background-color: rgba(109, 109, 110, 0.4);
 }
 
 .ltr-podnco.hasLabel.hasIcon {
@@ -375,9 +389,7 @@ header {
   align-items: center;
   -webkit-appearance: none;
   -moz-appearance: none;
-  -ms-appearance: none;
   appearance: none;
-  border: 0;
   border-radius: 4px;
   cursor: pointer;
   display: flex;
