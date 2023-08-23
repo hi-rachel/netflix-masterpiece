@@ -149,6 +149,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   border-style: none;
+  min-width: 950px;
 }
 
 .dark-background {
@@ -176,6 +177,7 @@ header {
   font-weight: 500;
   text-align: center;
   line-height: 1.4;
+  word-break: keep-all;
 }
 
 .header-black {
@@ -258,34 +260,22 @@ header {
 }
 
 .main-view {
-  min-width: 1000px;
   position: relative;
   z-index: 0;
-}
-
-.main-img-wrapper {
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 
 .main-img-layer {
   bottom: 0;
   left: 0;
-  opacity: 0.8;
+  opacity: 0.9;
   position: absolute;
   right: 0;
   top: 0;
   width: 100%;
 }
 
-/* ✅TODO 배경 사진 밑 자연스럽게 그라데이션하기 */
-
 .fill-container {
-  /* background-color: rgba(0, 0, 0, 0.264); */
-  /* background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 5%, transparent); */
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 2%, transparent);
   bottom: 0;
   left: 0;
   position: absolute;
@@ -326,7 +316,6 @@ header {
 
 .main-btn {
   font-size: 1.6rem;
-  font-size: 0.75vw;
   font-weight: 500;
   line-height: 2.4rem;
   display: flex;
@@ -338,6 +327,9 @@ header {
   flex-shrink: 0;
   margin-bottom: 1rem;
   margin-right: 1rem;
+  button {
+    max-height: 70px;
+  }
 }
 
 .main-btn-play {
@@ -347,6 +339,7 @@ header {
   justify-content: center;
   flex-shrink: 0;
   margin-left: 0;
+  max-height: 70px;
 }
 
 .main-btn-info {
@@ -409,14 +402,9 @@ header {
   height: 100%;
 }
 
-.ltr-iyulz3 svg {
-  height: 100%;
-  width: 100%;
-}
-
 #secondary-main {
   background-color: var(--main-bg-color);
-  height: 90vh;
+  height: 100vh;
 }
 
 .contents-title {
@@ -450,18 +438,20 @@ p {
   font-size: 1.7rem;
   font-weight: 500;
 }
+
 .swiper-slide {
-  transition: all 300ms ease-in-out;
+  transition-delay: 300ms;
   border-radius: 5px;
-  margin-right: 5px;
+  padding-right: 15px;
+  width: 16.66666667%;
 }
 
 .swiper-slide img {
   border-radius: 5px;
-  margin-right: 5px;
   max-width: 18rem;
   cursor: -webkit-grab;
   cursor: grab;
+  transition: all 300ms ease-in-out;
 }
 
 .swiper-slide img:active {
@@ -470,15 +460,14 @@ p {
 }
 
 .swiper-slide:hover {
-  transform: scale(1.5);
-  transition: all 300ms ease-in-out;
-  transition-delay: 300ms;
   z-index: 1;
 }
 
 .swiper-slide:hover img {
-  transition-delay: 300ms;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+  transform: scale(1.5);
+  z-index: 1;
+  transition: all 300ms ease-in-out;
 }
 
 @media screen and (max-width: 599px) {
@@ -494,7 +483,7 @@ p {
 @media screen and (max-width: 400px) {
   .swiper-slide img {
     max-width: 10.5rem;
-    border-radius: 2px;
+    border-radius: 3px;
   }
 }
 
