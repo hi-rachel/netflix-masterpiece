@@ -1,20 +1,26 @@
 <br/>
-<center>
-<img src="./netflix-photo/Netflix_Logo.png" width="250px" alt="netflix logo"/>
+<p align="middle">
+    <img src="./netflix-photo/Netflix_Logo.png" width="250px" alt="netflix logo"/>
+</p>
 
-## [Netflix 추천작 사이트](https://hi-rachel.github.io/netflix-masterpiece/)
+<h2 align="middle">
+    <a href="https://hi-rachel.github.io/netflix-masterpiece/" target="_blank" alt="사이트 바로가기">Netflix 추천작 사이트</a>
+</h2>
 
-Netflix Clone를 해보며 추천하고 싶은 작품만 넣어 만들었습니다. (⚠️ 개인 취향)
+<p align="middle">
+    Netflix Clone를 해보며 추천하고 싶은 작품만 넣어 만들었습니다. (⚠️ 개인 취향)
+</p>
 <br/>
 
-<img src="https://img.shields.io/badge/version-1.0.0-blue?style=flat-square" alt="template version"/>
-<img src="https://img.shields.io/badge/language-html-red.svg?style=flat-square"/>
-<img src="https://img.shields.io/badge/language-css-blue.svg?style=flat-square"/>
-<img src="https://img.shields.io/badge/language-js-yellow.svg?style=flat-square"/>
-<a href="https://github.com/blackcoffee-study/js-lv1-book-manual/blob/main/LICENSE" target="_blank">
-<img src="https://img.shields.io/github/license/blackcoffee-study/moonbucks-menu.svg?style=flat-square&label=license&color=08CE5D"/>
-</a>
-</center>
+<p align="middle">
+    <img src="https://img.shields.io/badge/version-1.0.0-blue?style=flat-square" alt="template version"/>
+    <img src="https://img.shields.io/badge/language-html-red.svg?style=flat-square"/>
+    <img src="https://img.shields.io/badge/language-css-blue.svg?style=flat-square"/>
+    <img src="https://img.shields.io/badge/language-js-yellow.svg?style=flat-square"/>
+    <a href="https://github.com/blackcoffee-study/js-lv1-book-manual/blob/main/LICENSE" target="_blank">
+        <img src="https://img.shields.io/github/license/blackcoffee-study/moonbucks-menu.svg?style=flat-square&label=license&color=08CE5D"/>
+    </a>
+</p>
 
 <br/>
 
